@@ -1,0 +1,42 @@
+Git learning tutorials:
+
+0. `git log --graph --decorate --all --oneline` commond to beatify log
+1. `git init` command to create .git folder
+2. `git config --global params "value"` commond to change global git params
+3. `git status` command to check current status, can show unstaged changes(means not  commited)
+4. `git log` commond to view current branch commit history
+5. `git add` commond to add document changes to git tree
+6. `git commit -m "message"` commond to commit changes to current branch
+7. `git checkout hashcommit|branchname` commond to checkout to specific changes
+8. `git diff` commond to view differences to current branch
+9. `git restore <file>` commond to revert uncommited changes
+
+10. `git remote` commond to view remote git services, like github, gitlab and etc
+11. `git remote add origin https://github.com/Sabyradinov/git_tutorial.git` commond to add project to remote git services, `origin` - name of remote, can be many remotes
+12. `git push origin master` commond to push new commits to remote git services, `master` - name of branch
+13. `git branch -M main` commond to create new branch, -M newbranchname
+14. `git push -u origin main` commond to push new commits to remote git services with `-u`, `main` - name of branch
+15. `git blame file|ref|etc` commond to show change of specific file or ref
+
+16. `git clone` commond to get remote repository
+17. `.gitignore` file to except all assets to git
+18. `https://git-school.github.io/visualizing-git/` playground  for git commond
+19. `https://learngitbranching.js.org/?locale=ru_RU` education for branching
+
+20. `git checkout` || `git switch` commond to switch branch, with `-` undo checkout, with `-c` create new branch, state `detached HEAD` don't know where put commit
+21. `git branch -a` show all brances
+22. `git checkout -b` commond to create branch and checkout to this
+21. `git merge` commond to merge two branch, creates new commit
+22. `git rebase` commond to add changed branch to main without new commit
+
+23. `git pull rebase` commond to get changes from remote, if we had local changes all changes with rebasee to one branch
+24. `git cherry-pick` commond to get exact commits to main branch, if we don't need all changes from another branch
+25. `git revert` commond to revert some commit from branch, create new commit without commit changes
+
+Additional materials:
+• https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch
+• https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
+• https://www.atlassian.com/ru/git/tutorials/rewriting-history
+
+Lesson:
+https://git-rebase.io/
